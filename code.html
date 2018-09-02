@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ID</title>
+    </head>
+    <body style="background-color: #00b241">
+        <form >
+            <fieldset style="background-color:#f7f7f7de ;width: 1000px ; height: 550px" >
+                <legend style="background-color: #21c3f3 ;width: 100px ; height:25px"><b>Personal Data</b></legend>
+
+                <fieldset style="background-color: #98d659 ; width: 600px; height: 100px">
+                    <legend style="background-color: #22ffcc"> Your Name</legend>
+                    <br>
+                    <table>
+                        <tr>
+                            <td>First Name : </td>
+                            <td><input type="text" name="fname" placeholder="ex Ahmed"></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name : </td>
+                            <td><input type="text" name="lname" placeholder="ex Alaa"></td>
+                        </tr>
+                    </table>
+                   
+                </fieldset>
+                <br><br><br>
+                <table>
+                    <tr>
+                        <td>Your Phone :</td>
+                        <td><input type="number" name="phnum" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Password :</td>
+                        <td><input type="password" name="pass"></td>
+                    </tr>
+                    
+                    <tr> 
+                        <td>RE-Password :</td>
+                        <td><input type="password" name="pass"></td>
+                    </tr>
+                </table>
+                
+                <br>
+                <label>Select your gender</label><br>
+                <input type="radio" name="gender" value="male" checked>Male
+                <br>
+                <input type="radio" name="gender" value="female">Female
+                <br><br>
+                
+                <label>Select your case now!!</label><br>
+                <input type="checkbox" name="study" value="student">Student
+                <br>
+                <input type="checkbox" name="study" value="graduated">Graduated
+                <br><br>
+                
+                <label>Select your University</label>
+                <select>
+                    <optgroup label="internatinal">
+                        <option value="AUC">AUC</option>
+                        <option value="GUC">GUC</option>
+                    </optgroup>
+                    <optgroup label="other">
+                        <option value="SH-A">SH-A</option>
+                        <option value="Cairo UN">cairo university</option>
+                    </optgroup>
+                </select>
+                <br>
+
+               <button  type="submit"style=" background-image: url(submit.jpg ) ; width:70px ;height: 25px "  ></button>
+                
+
+           </fieldset>
+        </form>    
+    </body>
+</html>
